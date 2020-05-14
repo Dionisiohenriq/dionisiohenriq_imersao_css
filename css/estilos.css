@@ -1,0 +1,38 @@
+body {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/61/ALMA_and_the_centre_of_the_Milky_Way.jpg');
+  background-size: 100vw 100vh;
+  font-family: Arial;
+  height: 100vw 100vh;
+}
+
+.menu {
+  background-color: lightblue;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+a{
+  text-decoration: none;
+  color: teal;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+  text-align: center;
+  color: black;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
